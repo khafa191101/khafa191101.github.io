@@ -264,12 +264,18 @@ footer{
 
 @media screen and (max-width: 670px) {
 
+    main{
+        margin-left: 0;
+    }
     body{
         font-size: smaller;
     }
     .kata{
         padding-right: 30%;
+        
     }
+
+    
     .nav nav ul{
         position: fixed;
         left: 0;
@@ -361,6 +367,10 @@ footer{
           float: left;
           width: 50%;
       }
+
+      .kata h1{
+        font-size: x-large;
+    }
     
       #click{
         display: none;
