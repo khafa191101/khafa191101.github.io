@@ -273,6 +273,7 @@ footer{
     }
     .kata{
         padding-right: 10%;
+        font-size: smaller;
     }
     .nav nav ul{
         position: fixed;
