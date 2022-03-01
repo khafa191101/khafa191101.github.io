@@ -272,7 +272,7 @@ footer{
         font-size: smaller;
     }
     .kata{
-        padding-right: 0%;
+        padding: 0%;
         
     }
 
@@ -337,6 +337,7 @@ footer{
     .container {
         display: inline-block;
         cursor: pointer;
+        
       }
       
       .bar1, .bar2, .bar3 {
