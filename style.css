@@ -272,12 +272,7 @@ footer{
         font-size: smaller;
     }
     .kata{
-        padding: 0%;
-        
-    }
-
-    .kata h1{
-        font-size: larger;
+        padding-right: 0%;
     }
     .nav nav ul{
         position: fixed;
@@ -337,7 +332,6 @@ footer{
     .container {
         display: inline-block;
         cursor: pointer;
-        
       }
       
       .bar1, .bar2, .bar3 {
