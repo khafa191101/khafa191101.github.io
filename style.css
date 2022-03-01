@@ -264,9 +264,7 @@ footer{
 
 @media screen and (max-width: 670px) {
 
-    main{
-        margin-left: 0;
-    }
+    
     body{
         font-size: smaller;
     }
@@ -376,6 +374,9 @@ footer{
         display: none;
     }
 
-    
+    main{
+        margin-left: 0;
+        margin-right: 0;
+    }
 
 }
