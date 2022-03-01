@@ -272,7 +272,7 @@ footer{
         font-size: smaller;
     }
     .kata{
-        padding-right: 0%;
+        padding-right: 30%;
     }
     .nav nav ul{
         position: fixed;
@@ -340,6 +340,7 @@ footer{
         background-color: rgb(255, 255, 255);
         margin: 6px 0;
         transition: 0.4s;
+        
       }
       
       /* Rotate first bar */
@@ -370,4 +371,5 @@ footer{
     }
 
     
+
 }
