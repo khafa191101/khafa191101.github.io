@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="kata">
+            <h1>Hello There!!</h1>
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click">
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+        </label>
+        <div class="nav">
+            <nav>
+                <ul>
+                        <li><a href="#itsme">About Me</a></li>
+                        <li><a href="#project">My Project</a></li>
+                        <li><a href="#article">Article</a></li>
+                        <li><a href="#travel">Galery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <div id="content">
+            <div id="itsme">
+                <div class="left">
+                    <h1 style="text-align: center;">Iam Fadhil</h1>
+                    <figure>
+                        <div class="logo"><img src="aset/me.jpeg" alt="aku" width="40%" class="center"></div>
+                        <figcaption>It's Me!</figcaption>
+                        <h2 style="text-align: center;">Travel addict and Software Engineer Enthusiast</h2>
+                    </figure>
+                </div>
+                <div class="right">
+                    <h1>About Me</h1>
+                    <p>I am a student that is multi-talented, conscientious, and generous. I enjoy being able to 
+                        work in a group or on my own. Until now, I've always wanted to study and grow. I enjoy 
+                        traveling and am deciding a career as an IT developer.</p>
+                </div>
+            </div>
+
+            <div id="project">
+                <div class="inside">
+                    <h1>Wanna see my project?</h1>
+                    <img src="https://c0.wallpaperflare.com/preview/690/183/611/code-coding-connection-css.jpg" alt="laptop" width="380px">
+                    <br> <br>
+                    <a href="../profileWeb/project.html"><button type="button">Click Here!</button></a>
+                </div>
+            </div>
+            <div id="article">
+                <div class="inside">
+                    <h1>Wanna see my article?</h1>
+                    <img src="https://st2.depositphotos.com/2026267/5233/i/450/depositphotos_52334423-stock-photo-news-article-on-digital-tablet.jpg" alt="laptop" width="380px">
+                    <br> <br>
+                    <a href="../profileWeb/article.html"><button type="button">Click Here!</button></a>
+                </div>
+            </div>
+            <div id="travel">
+                <div class="w3-container">
+                    <h1>My Galery Photos</h1>
+                    <p>Enjoy It!!</p>
+                  </div>
+                  
+                  <div class="w3-content" style="max-width:800px">
+                    <img class="mySlides" src="aset/bunga.jpg" style="width:60%">
+                    <img class="mySlides" src="aset/gunung.jpg" style="width:60%">
+                    <img class="mySlides" src="aset/jalan.jpg" style="width:60%">
+                    <img class="mySlides" src="aset/lampu.jpg" style="width:60%">
+                    <img class="mySlides" src="aset/landak.jpg" style="width:60%">
+                    <img class="mySlides" src="aset/lebah.jpg" style="width:60%">
+                    <img class="mySlides" src="aset/pinus.jpg" style="width:60%">
+                    <img class="mySlides" src="aset/stasiun.jpg" style="width:60%">
+                  </div>
+                  
+                  <div class="w3-center">
+                    <div class="w3-section">
+                      <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+                      <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+                    </div>
+                    <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+                    <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+                    <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+                    <button class="w3-button demo" onclick="currentDiv(4)">4</button> 
+                    <button class="w3-button demo" onclick="currentDiv(5)">5</button> 
+                    <button class="w3-button demo" onclick="currentDiv(6)">6</button> 
+                    <button class="w3-button demo" onclick="currentDiv(7)">7</button> 
+                    <button class="w3-button demo" onclick="currentDiv(8)">8</button> 
+                  </div>                  
+            </div>
+            <div id="contact">
+                <div class="dalam">
+                    <h1>Text me?</h1>
+                    <div class="logo">
+                        <ul>
+                            <li><a href="https://wa.me/62895333018443"><i class="fa fa-whatsapp" style="font-size:36px"></i></a></li>
+                            <li><a href="https://www.instagram.com/khafadhill/"><i class="fa fa-instagram" style="font-size:36px"></i></a></li>
+                            <li><a href="https://www.facebook.com/khair.fadhillah"><i class="fa fa-facebook-f" style="font-size:36px"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </main>
+    <footer>
+        &copy; 2022 Khair Fadhillah | Terms of Use | Privacy Policy
+    </footer>
+    <script src="slideshow.js"></script>
+    <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+        </script>
+        
+</body>
+</html>
